@@ -31,8 +31,8 @@
 	<form id="login" action="<%=actionForm%>" method="post">
 	    <h1>Log In</h1>
 	    <fieldset id="inputs">
-	        <input id="user" type="text" placeholder="Nombre de usuario" autofocus required>   
-	        <input id="password" type="password" placeholder="Contraseña" required>
+	        <input name="user" id="user" type="text" placeholder="Nombre de usuario" autofocus required>   
+	        <input name="password" id="password" type="password" placeholder="Contraseña" required>
 	    </fieldset>
 	    <fieldset id="actions">
 	        <input type="submit" id="submit" value="Log in">
